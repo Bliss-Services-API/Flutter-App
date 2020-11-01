@@ -1,0 +1,42 @@
+name: twilight
+description: A new Flutter application.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  provider: ^4.3.2+2
+  shared_preferences: ^0.5.12
+  video_player: ^0.11.0
+  image_picker: ^0.6.7+11
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/Montserrat-Black.ttf
+          weight: 900
+        - asset: assets/Montserrat-ExtraBold.ttf
+          weight: 800
+        - asset: assets/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/Montserrat-Regular.ttf
+          weight: 400
+        - asset: assets/Montserrat-Light.ttf
+          weight: 300
+        - asset: assets/Montserrat-ExtraLight.ttf
+          weight: 200
+        - asset: assets/Montserrat-Thin.ttf
+          weight: 100
